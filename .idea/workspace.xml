@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79da6223-a060-463f-9dff-5ee746d52854" name="Changes" comment="Update ProductController class">
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product_service/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product_service/service/ProductService.java" afterDir="false" />
-    </list>
+    <list default="true" id="79da6223-a060-463f-9dff-5ee746d52854" name="Changes" comment="Update ProductService class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +91,7 @@
       <workItem from="1724062724274" duration="161000" />
       <workItem from="1724062905435" duration="64000" />
       <workItem from="1724062987521" duration="2001000" />
-      <workItem from="1724094277106" duration="2882000" />
+      <workItem from="1724094277106" duration="3204000" />
     </task>
     <task id="LOCAL-00001" summary="Update docker-compose.yml">
       <option name="closed" value="true" />
@@ -303,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724097157676</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Update ProductService class">
+      <option name="closed" value="true" />
+      <created>1724097222495</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1724097222495</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,9 +336,9 @@
     <MESSAGE value="Added ProductService class" />
     <MESSAGE value="ProductResponse record created" />
     <MESSAGE value="Update ProductResponse record" />
-    <MESSAGE value="Update ProductService class" />
     <MESSAGE value="Update ProductResponse class" />
     <MESSAGE value="Update ProductController class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update ProductController class" />
+    <MESSAGE value="Update ProductService class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update ProductService class" />
   </component>
 </project>
