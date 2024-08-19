@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79da6223-a060-463f-9dff-5ee746d52854" name="Changes" comment="Update ProductController class">
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product_service/dto/ProductResponse.java" afterDir="false" />
-    </list>
+    <list default="true" id="79da6223-a060-463f-9dff-5ee746d52854" name="Changes" comment="Update ProductResponse record" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +91,7 @@
       <workItem from="1724062724274" duration="161000" />
       <workItem from="1724062905435" duration="64000" />
       <workItem from="1724062987521" duration="2001000" />
-      <workItem from="1724094277106" duration="1863000" />
+      <workItem from="1724094277106" duration="2224000" />
     </task>
     <task id="LOCAL-00001" summary="Update docker-compose.yml">
       <option name="closed" value="true" />
@@ -255,7 +253,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724095836730</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="ProductResponse record created">
+      <option name="closed" value="true" />
+      <created>1724096488442</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1724096488442</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Update ProductResponse record">
+      <option name="closed" value="true" />
+      <created>1724096511346</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1724096511346</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +296,8 @@
     <MESSAGE value="Added ProductService class" />
     <MESSAGE value="Update ProductService class" />
     <MESSAGE value="Update ProductController class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update ProductController class" />
+    <MESSAGE value="ProductResponse record created" />
+    <MESSAGE value="Update ProductResponse record" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update ProductResponse record" />
   </component>
 </project>

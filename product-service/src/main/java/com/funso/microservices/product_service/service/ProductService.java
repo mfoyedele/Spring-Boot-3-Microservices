@@ -1,6 +1,7 @@
 package com.funso.microservices.product_service.service;
 
 import com.funso.microservices.product_service.dto.ProductRequest;
+import com.funso.microservices.product_service.dto.ProductResponse;
 import com.funso.microservices.product_service.model.Product;
 import com.funso.microservices.product_service.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
@@ -26,7 +27,10 @@ public class ProductService {
       return product;
     }
 
-    public List<Product> getAllProducts() {
-        return productRepository.findAll();
+    public List<ProductResponse> getAllProducts() {
+        return productRepository.findAll()
+                .stream()
+                .map(product -> new ProductResponse(product.getId(), product.getName(), product.getDescription(), product.getPrice()))
+                .toList();
     }
 }
