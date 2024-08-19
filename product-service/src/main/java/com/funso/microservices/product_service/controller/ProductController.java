@@ -1,6 +1,7 @@
 package com.funso.microservices.product_service.controller;
 
 import com.funso.microservices.product_service.dto.ProductRequest;
+import com.funso.microservices.product_service.dto.ProductResponse;
 import com.funso.microservices.product_service.model.Product;
 import com.funso.microservices.product_service.service.ProductService;
 import lombok.RequiredArgsConstructor;
@@ -24,7 +25,7 @@ public class ProductController {
 
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
-    public List<Product> getAllProducts() {
+    public List<ProductResponse> getAllProducts() {
         return productService.getAllProducts();
     }
 }
