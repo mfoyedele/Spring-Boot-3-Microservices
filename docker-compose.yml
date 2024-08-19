@@ -4,7 +4,7 @@ services:
   mongo:
     image: 'mongo:7.0.5'
     ports:
-      - 27018:27017
+      - 27017:27017
     volumes:
       - my-data:/var/lib/mongodb/data
 
