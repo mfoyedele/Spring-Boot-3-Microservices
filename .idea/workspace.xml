@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79da6223-a060-463f-9dff-5ee746d52854" name="Changes" comment="Product class model added for product service">
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product_service/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+    <list default="true" id="79da6223-a060-463f-9dff-5ee746d52854" name="Changes" comment="Added ProductRepository class">
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product_service/controller/ProductController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,15 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2knMeEbxnPsjrpPfTcCVaWwzrDk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -85,6 +86,7 @@
       <workItem from="1724060778631" duration="1582000" />
       <workItem from="1724062724274" duration="161000" />
       <workItem from="1724062905435" duration="64000" />
+      <workItem from="1724062987521" duration="658000" />
     </task>
     <task id="LOCAL-00001" summary="Update docker-compose.yml">
       <option name="closed" value="true" />
@@ -134,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724062282851</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added ProductRepository class">
+      <option name="closed" value="true" />
+      <created>1724063044522</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724063044522</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +154,7 @@
     <MESSAGE value="Update docker-compose.yml" />
     <MESSAGE value="Update application.properties" />
     <MESSAGE value="Product class model added for product service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product class model added for product service" />
+    <MESSAGE value="Added ProductRepository class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ProductRepository class" />
   </component>
 </project>
