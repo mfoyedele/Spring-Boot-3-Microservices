@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79da6223-a060-463f-9dff-5ee746d52854" name="Changes" comment="Update ProductRequest class">
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product_service/service/ProductService.java" afterDir="false" />
+    <list default="true" id="79da6223-a060-463f-9dff-5ee746d52854" name="Changes" comment="Added ProductService class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product_service/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product_service/service/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,8 @@
       <workItem from="1724060778631" duration="1582000" />
       <workItem from="1724062724274" duration="161000" />
       <workItem from="1724062905435" duration="64000" />
-      <workItem from="1724062987521" duration="1636000" />
+      <workItem from="1724062987521" duration="2001000" />
+      <workItem from="1724094277106" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="Update docker-compose.yml">
       <option name="closed" value="true" />
@@ -183,11 +184,30 @@
       <option name="project" value="LOCAL" />
       <updated>1724064315443</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added ProductService class">
+      <option name="closed" value="true" />
+      <created>1724064770754</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1724064770754</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update docker-compose.yml" />
@@ -197,6 +217,7 @@
     <MESSAGE value="Added ProductController class" />
     <MESSAGE value="Update ProductController class" />
     <MESSAGE value="Update ProductRequest class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update ProductRequest class" />
+    <MESSAGE value="Added ProductService class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ProductService class" />
   </component>
 </project>
