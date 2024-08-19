@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79da6223-a060-463f-9dff-5ee746d52854" name="Changes" comment="Added ProductController class">
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product_service/dto/ProductRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product_service/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product_service/controller/ProductController.java" afterDir="false" />
+    <list default="true" id="79da6223-a060-463f-9dff-5ee746d52854" name="Changes" comment="Update ProductRequest class">
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product_service/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -93,7 +93,7 @@
       <workItem from="1724060778631" duration="1582000" />
       <workItem from="1724062724274" duration="161000" />
       <workItem from="1724062905435" duration="64000" />
-      <workItem from="1724062987521" duration="985000" />
+      <workItem from="1724062987521" duration="1636000" />
     </task>
     <task id="LOCAL-00001" summary="Update docker-compose.yml">
       <option name="closed" value="true" />
@@ -159,7 +159,31 @@
       <option name="project" value="LOCAL" />
       <updated>1724063718527</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update ProductController class">
+      <option name="closed" value="true" />
+      <created>1724064020341</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724064020341</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update ProductController class">
+      <option name="closed" value="true" />
+      <created>1724064241782</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724064241782</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update ProductRequest class">
+      <option name="closed" value="true" />
+      <created>1724064315443</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1724064315443</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +195,8 @@
     <MESSAGE value="Product class model added for product service" />
     <MESSAGE value="Added ProductRepository class" />
     <MESSAGE value="Added ProductController class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ProductController class" />
+    <MESSAGE value="Update ProductController class" />
+    <MESSAGE value="Update ProductRequest class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update ProductRequest class" />
   </component>
 </project>
