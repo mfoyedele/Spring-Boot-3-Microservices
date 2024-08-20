@@ -1,9 +1,9 @@
-package com.funso.microservices.product_service.service;
+package com.funso.microservices.product.service;
 
-import com.funso.microservices.product_service.dto.ProductRequest;
-import com.funso.microservices.product_service.dto.ProductResponse;
-import com.funso.microservices.product_service.model.Product;
-import com.funso.microservices.product_service.repository.ProductRepository;
+import com.funso.microservices.product.dto.ProductRequest;
+import com.funso.microservices.product.dto.ProductResponse;
+import com.funso.microservices.product.model.Product;
+import com.funso.microservices.product.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

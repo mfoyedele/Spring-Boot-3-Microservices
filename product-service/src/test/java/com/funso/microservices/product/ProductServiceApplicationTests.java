@@ -1,4 +1,4 @@
-package com.funso.microservices.product_service;
+package com.funso.microservices.product;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

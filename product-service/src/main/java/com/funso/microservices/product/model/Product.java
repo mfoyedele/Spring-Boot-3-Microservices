@@ -1,4 +1,4 @@
-package com.funso.microservices.product_service.model;
+package com.funso.microservices.product.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

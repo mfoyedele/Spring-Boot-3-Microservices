@@ -1,4 +1,4 @@
-package com.funso.microservices.product_service.dto;
+package com.funso.microservices.product.dto;
 
 import java.math.BigDecimal;
 

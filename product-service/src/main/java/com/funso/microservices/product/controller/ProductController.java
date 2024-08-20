@@ -1,9 +1,8 @@
-package com.funso.microservices.product_service.controller;
+package com.funso.microservices.product.controller;
 
-import com.funso.microservices.product_service.dto.ProductRequest;
-import com.funso.microservices.product_service.dto.ProductResponse;
-import com.funso.microservices.product_service.model.Product;
-import com.funso.microservices.product_service.service.ProductService;
+import com.funso.microservices.product.dto.ProductRequest;
+import com.funso.microservices.product.dto.ProductResponse;
+import com.funso.microservices.product.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

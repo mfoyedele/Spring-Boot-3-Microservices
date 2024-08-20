@@ -1,4 +1,4 @@
-package com.funso.microservices.product_service;
+package com.funso.microservices.product;
 
 import org.springframework.boot.SpringApplication;
 
