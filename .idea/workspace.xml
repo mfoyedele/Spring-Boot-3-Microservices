@@ -4,19 +4,410 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79da6223-a060-463f-9dff-5ee746d52854" name="Changes" comment="Update both ProductResponse and ProductService">
+    <list default="true" id="79da6223-a060-463f-9dff-5ee746d52854" name="Changes" comment="Update application.properties">
+      <change afterPath="$PROJECT_DIR$/.m2/copy_reference_file.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/ch/qos/logback/logback-classic/1.4.14/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/ch/qos/logback/logback-core/1.4.14/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/ch/qos/logback/logback-parent/1.4.14/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/ch/qos/logback/logback-parent/1.4.14/logback-parent-1.4.14.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/ch/qos/logback/logback-parent/1.4.14/logback-parent-1.4.14.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/datastax/oss/java-driver-bom/4.17.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/datastax/oss/java-driver-bom/4.17.0/java-driver-bom-4.17.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/datastax/oss/java-driver-bom/4.17.0/java-driver-bom-4.17.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/fasterxml/jackson/jackson-bom/2.15.2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/fasterxml/jackson/jackson-bom/2.15.2/jackson-bom-2.15.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/fasterxml/jackson/jackson-bom/2.15.2/jackson-bom-2.15.2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/fasterxml/jackson/jackson-bom/2.15.4/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/fasterxml/jackson/jackson-bom/2.15.4/jackson-bom-2.15.4.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/fasterxml/jackson/jackson-bom/2.15.4/jackson-bom-2.15.4.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/fasterxml/jackson/jackson-parent/2.15/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/fasterxml/jackson/jackson-parent/2.15/jackson-parent-2.15.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/fasterxml/jackson/jackson-parent/2.15/jackson-parent-2.15.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/fasterxml/oss-parent/50/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/fasterxml/oss-parent/50/oss-parent-50.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/fasterxml/oss-parent/50/oss-parent-50.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/querydsl/querydsl-bom/5.0.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/querydsl/querydsl-bom/5.0.0/querydsl-bom-5.0.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/querydsl/querydsl-bom/5.0.0/querydsl-bom-5.0.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/squareup/okhttp3/okhttp-bom/4.12.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/squareup/okhttp3/okhttp-bom/4.12.0/okhttp-bom-4.12.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/squareup/okhttp3/okhttp-bom/4.12.0/okhttp-bom-4.12.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/dropwizard/metrics/metrics-bom/4.2.26/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/dropwizard/metrics/metrics-bom/4.2.26/metrics-bom-4.2.26.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/dropwizard/metrics/metrics-bom/4.2.26/metrics-bom-4.2.26.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/dropwizard/metrics/metrics-parent/4.2.26/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/dropwizard/metrics/metrics-parent/4.2.26/metrics-parent-4.2.26.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/dropwizard/metrics/metrics-parent/4.2.26/metrics-parent-4.2.26.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/fabric8/kubernetes-client-bom/5.12.4/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/fabric8/kubernetes-client-bom/5.12.4/kubernetes-client-bom-5.12.4.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/fabric8/kubernetes-client-bom/5.12.4/kubernetes-client-bom-5.12.4.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/micrometer/micrometer-bom/1.12.8/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/micrometer/micrometer-bom/1.12.8/micrometer-bom-1.12.8.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/micrometer/micrometer-bom/1.12.8/micrometer-bom-1.12.8.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/micrometer/micrometer-commons/1.12.8/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/micrometer/micrometer-commons/1.12.8/micrometer-commons-1.12.8.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/micrometer/micrometer-commons/1.12.8/micrometer-commons-1.12.8.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/micrometer/micrometer-observation/1.12.8/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/micrometer/micrometer-observation/1.12.8/micrometer-observation-1.12.8.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/micrometer/micrometer-observation/1.12.8/micrometer-observation-1.12.8.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/micrometer/micrometer-tracing-bom/1.2.8/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/micrometer/micrometer-tracing-bom/1.2.8/micrometer-tracing-bom-1.2.8.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/micrometer/micrometer-tracing-bom/1.2.8/micrometer-tracing-bom-1.2.8.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/netty/netty-bom/4.1.111.Final/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/netty/netty-bom/4.1.111.Final/netty-bom-4.1.111.Final.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/netty/netty-bom/4.1.111.Final/netty-bom-4.1.111.Final.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/netty/netty-bom/4.1.87.Final/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/netty/netty-bom/4.1.87.Final/netty-bom-4.1.87.Final.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/netty/netty-bom/4.1.87.Final/netty-bom-4.1.87.Final.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/netty/netty-bom/4.1.97.Final/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/netty/netty-bom/4.1.97.Final/netty-bom-4.1.97.Final.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/netty/netty-bom/4.1.97.Final/netty-bom-4.1.97.Final.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/opentelemetry/opentelemetry-bom/1.31.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/opentelemetry/opentelemetry-bom/1.31.0/opentelemetry-bom-1.31.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/opentelemetry/opentelemetry-bom/1.31.0/opentelemetry-bom-1.31.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/projectreactor/reactor-bom/2023.0.8/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/projectreactor/reactor-bom/2023.0.8/reactor-bom-2023.0.8.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/projectreactor/reactor-bom/2023.0.8/reactor-bom-2023.0.8.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/prometheus/parent/0.16.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/prometheus/parent/0.16.0/parent-0.16.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/prometheus/parent/0.16.0/parent-0.16.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/prometheus/simpleclient_bom/0.16.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/prometheus/simpleclient_bom/0.16.0/simpleclient_bom-0.16.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/prometheus/simpleclient_bom/0.16.0/simpleclient_bom-0.16.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/rest-assured/rest-assured-bom/5.3.2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/rest-assured/rest-assured-bom/5.3.2/rest-assured-bom-5.3.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/rest-assured/rest-assured-bom/5.3.2/rest-assured-bom-5.3.2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/rsocket/rsocket-bom/1.1.3/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/rsocket/rsocket-bom/1.1.3/rsocket-bom-1.1.3.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/rsocket/rsocket-bom/1.1.3/rsocket-bom-1.1.3.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/zipkin/brave/brave-bom/5.16.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/zipkin/brave/brave-bom/5.16.0/brave-bom-5.16.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/zipkin/brave/brave-bom/5.16.0/brave-bom-5.16.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/zipkin/reporter2/zipkin-reporter-bom/2.16.3/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/zipkin/reporter2/zipkin-reporter-bom/2.16.3/zipkin-reporter-bom-2.16.3.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/io/zipkin/reporter2/zipkin-reporter-bom/2.16.3/zipkin-reporter-bom-2.16.3.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/jakarta/platform/jakarta.jakartaee-bom/9.1.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/jakarta/platform/jakarta.jakartaee-bom/9.1.0/jakarta.jakartaee-bom-9.1.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/jakarta/platform/jakarta.jakartaee-bom/9.1.0/jakarta.jakartaee-bom-9.1.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/jakarta/platform/jakartaee-api-parent/9.1.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/jakarta/platform/jakartaee-api-parent/9.1.0/jakartaee-api-parent-9.1.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/jakarta/platform/jakartaee-api-parent/9.1.0/jakartaee-api-parent-9.1.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api-parent/4.0.2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api-parent/4.0.2/jakarta.xml.bind-api-parent-4.0.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api-parent/4.0.2/jakarta.xml.bind-api-parent-4.0.2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/javax/inject/javax.inject/1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/net/minidev/accessors-smart/2.5.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/net/minidev/json-smart/2.5.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/net/minidev/json-smart/2.5.1/json-smart-2.5.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/net/minidev/json-smart/2.5.1/json-smart-2.5.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/apache/13/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/apache/13/apache-13.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/apache/13/apache-13.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/apache/29/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/apache/29/apache-29.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/apache/29/apache-29.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/apache/30/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/apache/30/apache-30.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/apache/30/apache-30.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/groovy/groovy-bom/4.0.22/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/groovy/groovy-bom/4.0.22/groovy-bom-4.0.22.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/groovy/groovy-bom/4.0.22/groovy-bom-4.0.22.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/logging/log4j/log4j-bom/2.21.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/logging/log4j/log4j-bom/2.21.1/log4j-bom-2.21.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/logging/log4j/log4j-bom/2.21.1/log4j-bom-2.21.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/log4j-to-slf4j-2.21.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/log4j-to-slf4j-2.21.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/logging/log4j/log4j/2.21.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/logging/log4j/log4j/2.21.1/log4j-2.21.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/logging/log4j/log4j/2.21.1/log4j-2.21.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/logging/logging-parent/10.1.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/logging/logging-parent/10.1.1/logging-parent-10.1.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/logging/logging-parent/10.1.1/logging-parent-10.1.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/maven-parent/23/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/maven-parent/23/maven-parent-23.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/maven-parent/23/maven-parent-23.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/maven-parent/34/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/maven-parent/34/maven-parent-34.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/maven-parent/34/maven-parent-34.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/maven-parent/39/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/maven-parent/39/maven-parent-39.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/maven-parent/39/maven-parent-39.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.11.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.11.0/maven-compiler-plugin-3.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.11.0/maven-compiler-plugin-3.11.0.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.11.0/maven-compiler-plugin-3.11.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.11.0/maven-compiler-plugin-3.11.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/plugins/maven-plugins/39/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/plugins/maven-plugins/39/maven-plugins-39.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/plugins/maven-plugins/39/maven-plugins-39.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/plugins/maven-resources-plugin/3.3.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/plugins/maven-resources-plugin/3.3.1/maven-resources-plugin-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/plugins/maven-resources-plugin/3.3.1/maven-resources-plugin-3.3.1.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/plugins/maven-resources-plugin/3.3.1/maven-resources-plugin-3.3.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/plugins/maven-resources-plugin/3.3.1/maven-resources-plugin-3.3.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/shared/maven-filtering/3.3.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/shared/maven-filtering/3.3.1/maven-filtering-3.3.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/shared/maven-filtering/3.3.1/maven-filtering-3.3.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/shared/maven-shared-components/19/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/shared/maven-shared-components/19/maven-shared-components-19.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/shared/maven-shared-components/19/maven-shared-components-19.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/shared/maven-shared-components/34/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/shared/maven-shared-components/34/maven-shared-components-34.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/shared/maven-shared-components/34/maven-shared-components-34.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/shared/maven-shared-components/39/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/shared/maven-shared-components/39/maven-shared-components-39.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/shared/maven-shared-components/39/maven-shared-components-39.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.3.4/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/assertj/assertj-bom/3.24.2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/assertj/assertj-bom/3.24.2/assertj-bom-3.24.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/assertj/assertj-bom/3.24.2/assertj-bom-3.24.2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/assertj/assertj-core/3.24.2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/codehaus/groovy/groovy-bom/3.0.19/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/codehaus/groovy/groovy-bom/3.0.19/groovy-bom-3.0.19.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/codehaus/groovy/groovy-bom/3.0.19/groovy-bom-3.0.19.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/codehaus/plexus/plexus-utils/3.5.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/codehaus/plexus/plexus/10/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/codehaus/plexus/plexus/10/plexus-10.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/codehaus/plexus/plexus/10/plexus-10.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/codehaus/plexus/plexus/5.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/codehaus/plexus/plexus/5.1/plexus-5.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/codehaus/plexus/plexus/5.1/plexus-5.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/eclipse/ee4j/project/1.0.7/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/eclipse/ee4j/project/1.0.7/project-1.0.7.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/eclipse/ee4j/project/1.0.7/project-1.0.7.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/eclipse/ee4j/project/1.0.9/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/eclipse/ee4j/project/1.0.9/project-1.0.9.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/eclipse/ee4j/project/1.0.9/project-1.0.9.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/eclipse/jetty/ee10/jetty-ee10-bom/12.0.11/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/eclipse/jetty/ee10/jetty-ee10-bom/12.0.11/jetty-ee10-bom-12.0.11.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/eclipse/jetty/ee10/jetty-ee10-bom/12.0.11/jetty-ee10-bom-12.0.11.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/eclipse/jetty/jetty-bom/12.0.11/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/eclipse/jetty/jetty-bom/12.0.11/jetty-bom-12.0.11.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/eclipse/jetty/jetty-bom/12.0.11/jetty-bom-12.0.11.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/eclipse/jetty/jetty-bom/9.4.53.v20231009/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/eclipse/jetty/jetty-bom/9.4.53.v20231009/jetty-bom-9.4.53.v20231009.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/eclipse/jetty/jetty-bom/9.4.53.v20231009/jetty-bom-9.4.53.v20231009.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/glassfish/jaxb/jaxb-bom/4.0.5/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/glassfish/jaxb/jaxb-bom/4.0.5/jaxb-bom-4.0.5.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/glassfish/jaxb/jaxb-bom/4.0.5/jaxb-bom-4.0.5.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/glassfish/jersey/jersey-bom/3.1.7/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/glassfish/jersey/jersey-bom/3.1.7/jersey-bom-3.1.7.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/glassfish/jersey/jersey-bom/3.1.7/jersey-bom-3.1.7.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/infinispan/infinispan-bom/14.0.29.Final/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/infinispan/infinispan-bom/14.0.29.Final/infinispan-bom-14.0.29.Final.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/infinispan/infinispan-bom/14.0.29.Final/infinispan-bom-14.0.29.Final.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/infinispan/infinispan-build-configuration-parent/14.0.29.Final/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/infinispan/infinispan-build-configuration-parent/14.0.29.Final/infinispan-build-configuration-parent-14.0.29.Final.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/infinispan/infinispan-build-configuration-parent/14.0.29.Final/infinispan-build-configuration-parent-14.0.29.Final.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/jboss/jboss-parent/39/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/jboss/jboss-parent/39/jboss-parent-39.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/jboss/jboss-parent/39/jboss-parent-39.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/jetbrains/kotlin/kotlin-bom/1.9.24/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/jetbrains/kotlin/kotlin-bom/1.9.24/kotlin-bom-1.9.24.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/jetbrains/kotlin/kotlin-bom/1.9.24/kotlin-bom-1.9.24.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.7.3/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.7.3/kotlinx-coroutines-bom-1.7.3.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.7.3/kotlinx-coroutines-bom-1.7.3.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/jetbrains/kotlinx/kotlinx-serialization-bom/1.6.3/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/jetbrains/kotlinx/kotlinx-serialization-bom/1.6.3/kotlinx-serialization-bom-1.6.3.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/jetbrains/kotlinx/kotlinx-serialization-bom/1.6.3/kotlinx-serialization-bom-1.6.3.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/junit/junit-bom/5.10.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/junit/junit-bom/5.10.0/junit-bom-5.10.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/junit/junit-bom/5.10.0/junit-bom-5.10.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/junit/junit-bom/5.10.3/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/junit/junit-bom/5.10.3/junit-bom-5.10.3.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/junit/junit-bom/5.10.3/junit-bom-5.10.3.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mockito/mockito-bom/4.11.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mockito/mockito-bom/4.11.0/mockito-bom-4.11.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mockito/mockito-bom/4.11.0/mockito-bom-4.11.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mockito/mockito-bom/5.7.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mockito/mockito-bom/5.7.0/mockito-bom-5.7.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mockito/mockito-bom/5.7.0/mockito-bom-5.7.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mockito/mockito-junit-jupiter/5.7.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mockito/mockito-junit-jupiter/5.7.0/mockito-junit-jupiter-5.7.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mockito/mockito-junit-jupiter/5.7.0/mockito-junit-jupiter-5.7.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mongodb/bson-record-codec/4.11.2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mongodb/bson-record-codec/4.11.2/bson-record-codec-4.11.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mongodb/bson-record-codec/4.11.2/bson-record-codec-4.11.2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mongodb/bson/4.11.2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mongodb/bson/4.11.2/bson-4.11.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mongodb/bson/4.11.2/bson-4.11.2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mongodb/mongodb-driver-core/4.11.2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mongodb/mongodb-driver-core/4.11.2/mongodb-driver-core-4.11.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mongodb/mongodb-driver-core/4.11.2/mongodb-driver-core-4.11.2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mongodb/mongodb-driver-sync/4.11.2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mongodb/mongodb-driver-sync/4.11.2/mongodb-driver-sync-4.11.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/mongodb/mongodb-driver-sync/4.11.2/mongodb-driver-sync-4.11.2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/objenesis/objenesis-parent/3.3/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/objenesis/objenesis-parent/3.3/objenesis-parent-3.3.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/ow2/asm/asm-bom/9.5/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/ow2/asm/asm-bom/9.5/asm-bom-9.5.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/ow2/asm/asm-bom/9.5/asm-bom-9.5.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/ow2/asm/asm/9.6/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/ow2/asm/asm/9.6/asm-9.6.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/ow2/asm/asm/9.6/asm-9.6.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/ow2/ow2/1.5.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/ow2/ow2/1.5.1/ow2-1.5.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/ow2/ow2/1.5.1/ow2-1.5.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/seleniumhq/selenium/selenium-bom/4.14.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/seleniumhq/selenium/selenium-bom/4.14.1/selenium-bom-4.14.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/seleniumhq/selenium/selenium-bom/4.14.1/selenium-bom-4.14.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/skyscreamer/jsonassert/1.5.3/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/slf4j/jul-to-slf4j/2.0.13/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/slf4j/jul-to-slf4j/2.0.13/jul-to-slf4j-2.0.13.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/slf4j/jul-to-slf4j/2.0.13/jul-to-slf4j-2.0.13.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/slf4j/slf4j-api/2.0.13/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/slf4j/slf4j-bom/2.0.13/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/slf4j/slf4j-bom/2.0.13/slf4j-bom-2.0.13.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/slf4j/slf4j-bom/2.0.13/slf4j-bom-2.0.13.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/slf4j/slf4j-parent/2.0.13/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/slf4j/slf4j-parent/2.0.13/slf4j-parent-2.0.13.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/slf4j/slf4j-parent/2.0.13/slf4j-parent-2.0.13.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/sonatype/oss/oss-parent/7/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/amqp/spring-amqp-bom/3.1.6/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/amqp/spring-amqp-bom/3.1.6/spring-amqp-bom-3.1.6.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/amqp/spring-amqp-bom/3.1.6/spring-amqp-bom-3.1.6.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/batch/spring-batch-bom/5.1.2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/batch/spring-batch-bom/5.1.2/spring-batch-bom-5.1.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/batch/spring-batch-bom/5.1.2/spring-batch-bom-5.1.2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.2.8/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.2.8/spring-boot-autoconfigure-3.2.8.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.2.8/spring-boot-autoconfigure-3.2.8.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-dependencies/3.2.8/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-dependencies/3.2.8/spring-boot-dependencies-3.2.8.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-dependencies/3.2.8/spring-boot-dependencies-3.2.8.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-maven-plugin/3.2.8/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-maven-plugin/3.2.8/spring-boot-maven-plugin-3.2.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-maven-plugin/3.2.8/spring-boot-maven-plugin-3.2.8.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-maven-plugin/3.2.8/spring-boot-maven-plugin-3.2.8.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-maven-plugin/3.2.8/spring-boot-maven-plugin-3.2.8.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-starter-data-mongodb/3.2.8/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-starter-data-mongodb/3.2.8/spring-boot-starter-data-mongodb-3.2.8.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-starter-data-mongodb/3.2.8/spring-boot-starter-data-mongodb-3.2.8.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.2.8/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.2.8/spring-boot-starter-logging-3.2.8.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.2.8/spring-boot-starter-logging-3.2.8.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-starter-parent/3.2.8/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-starter-parent/3.2.8/spring-boot-starter-parent-3.2.8.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-starter-parent/3.2.8/spring-boot-starter-parent-3.2.8.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-starter/3.2.8/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-starter/3.2.8/spring-boot-starter-3.2.8.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot-starter/3.2.8/spring-boot-starter-3.2.8.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot/3.2.8/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot/3.2.8/spring-boot-3.2.8.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/boot/spring-boot/3.2.8/spring-boot-3.2.8.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/data/spring-data-bom/2023.1.8/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/data/spring-data-bom/2023.1.8/spring-data-bom-2023.1.8.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/data/spring-data-bom/2023.1.8/spring-data-bom-2023.1.8.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/data/spring-data-mongodb/4.2.8/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/data/spring-data-mongodb/4.2.8/spring-data-mongodb-4.2.8.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/data/spring-data-mongodb/4.2.8/spring-data-mongodb-4.2.8.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/integration/spring-integration-bom/6.2.7/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/integration/spring-integration-bom/6.2.7/spring-integration-bom-6.2.7.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/integration/spring-integration-bom/6.2.7/spring-integration-bom-6.2.7.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/pulsar/spring-pulsar-bom/1.0.8/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/pulsar/spring-pulsar-bom/1.0.8/spring-pulsar-bom-1.0.8.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/pulsar/spring-pulsar-bom/1.0.8/spring-pulsar-bom-1.0.8.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/restdocs/spring-restdocs-bom/3.0.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/restdocs/spring-restdocs-bom/3.0.1/spring-restdocs-bom-3.0.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/restdocs/spring-restdocs-bom/3.0.1/spring-restdocs-bom-3.0.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/security/spring-security-bom/6.2.5/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/security/spring-security-bom/6.2.5/spring-security-bom-6.2.5.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/security/spring-security-bom/6.2.5/spring-security-bom-6.2.5.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/session/spring-session-bom/3.2.4/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/session/spring-session-bom/3.2.4/spring-session-bom-3.2.4.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/session/spring-session-bom/3.2.4/spring-session-bom-3.2.4.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-aop/6.1.11/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-aop/6.1.11/spring-aop-6.1.11.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-aop/6.1.11/spring-aop-6.1.11.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-beans/6.1.11/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-beans/6.1.11/spring-beans-6.1.11.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-beans/6.1.11/spring-beans-6.1.11.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-context/6.1.11/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-context/6.1.11/spring-context-6.1.11.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-context/6.1.11/spring-context-6.1.11.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-core/6.1.11/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-core/6.1.11/spring-core-6.1.11.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-core/6.1.11/spring-core-6.1.11.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-expression/6.1.11/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-expression/6.1.11/spring-expression-6.1.11.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-expression/6.1.11/spring-expression-6.1.11.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-framework-bom/5.3.29/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-framework-bom/5.3.29/spring-framework-bom-5.3.29.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-framework-bom/5.3.29/spring-framework-bom-5.3.29.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-framework-bom/6.1.11/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-framework-bom/6.1.11/spring-framework-bom-6.1.11.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-framework-bom/6.1.11/spring-framework-bom-6.1.11.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-jcl/6.1.11/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-jcl/6.1.11/spring-jcl-6.1.11.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-jcl/6.1.11/spring-jcl-6.1.11.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-test/6.1.11/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-test/6.1.11/spring-test-6.1.11.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/spring-test/6.1.11/spring-test-6.1.11.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/ws/spring-ws-bom/4.0.11/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/ws/spring-ws-bom/4.0.11/spring-ws-bom-4.0.11.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/springframework/ws/spring-ws-bom/4.0.11/spring-ws-bom-4.0.11.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/testcontainers/testcontainers-bom/1.19.8/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/testcontainers/testcontainers-bom/1.19.8/testcontainers-bom-1.19.8.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/testcontainers/testcontainers-bom/1.19.8/testcontainers-bom-1.19.8.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/yaml/snakeyaml/2.2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.m2/settings-docker.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mongodb/WiredTiger.wt.10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mongodb/WiredTiger.wt.11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mongodb/WiredTiger.wt.12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mongodb/WiredTiger.wt.13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mongodb/WiredTiger.wt.14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mongodb/WiredTiger.wt.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mongodb/WiredTiger.wt.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mongodb/WiredTiger.wt.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mongodb/WiredTiger.wt.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mongodb/WiredTiger.wt.7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mongodb/WiredTiger.wt.8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mongodb/WiredTiger.wt.9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product_service/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product/ProductServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product_service/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product_service/dto/ProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product/dto/ProductRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product_service/dto/ProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product/dto/ProductResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product_service/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product_service/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product_service/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/funso/microservices/product/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/test/java/com/funso/microservices/product_service/ProductServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/test/java/com/funso/microservices/product/ProductServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/test/java/com/funso/microservices/product_service/TestProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/test/java/com/funso/microservices/product/TestProductServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/test/java/com/funso/microservices/product_service/TestcontainersConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/test/java/com/funso/microservices/product/TestcontainersConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +444,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -61,7 +453,7 @@
     &quot;Spring Boot.ProductServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Documents/GitHub/Spring-Boot-3-Microservices/product-service&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Documents/GitHub/product-service&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -79,14 +471,25 @@
       <recent name="com.funso.microservices.product_service.dto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\Documents\GitHub\Spring-Boot-3-Microservices" />
       <recent name="C:\Users\USER\Documents\GitHub\Spring-Boot-3-Microservices\product-service" />
+      <recent name="C:\Users\USER\Documents\GitHub\Spring-Boot-3-Microservices" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="product-service" />
+      <target name="WSL - Ubuntu" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.funso.microservices.product.ProductServiceApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,6 +519,11 @@
       <workItem from="1724062987521" duration="2001000" />
       <workItem from="1724094277106" duration="4792000" />
       <workItem from="1724099175106" duration="819000" />
+      <workItem from="1724162247637" duration="1544000" />
+      <workItem from="1724163828253" duration="3613000" />
+      <workItem from="1724167932319" duration="942000" />
+      <workItem from="1724222471431" duration="952000" />
+      <workItem from="1724223447357" duration="1092000" />
     </task>
     <task id="LOCAL-00001" summary="Update docker-compose.yml">
       <option name="closed" value="true" />
@@ -365,7 +773,55 @@
       <option name="project" value="LOCAL" />
       <updated>1724098515666</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Update both ProductResponse and ProductService">
+      <option name="closed" value="true" />
+      <created>1724162871148</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1724162871150</updated>
+    </task>
+    <task id="LOCAL-00033" summary="update .env file">
+      <option name="closed" value="true" />
+      <created>1724162922530</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1724162922530</updated>
+    </task>
+    <task id="LOCAL-00034" summary="update docker-compose.yml">
+      <option name="closed" value="true" />
+      <created>1724163233998</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1724163233998</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Dockerfile created">
+      <option name="closed" value="true" />
+      <created>1724163356779</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1724163356779</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Dockerfile created">
+      <option name="closed" value="true" />
+      <created>1724163391132</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1724163391132</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Update application.properties">
+      <option name="closed" value="true" />
+      <created>1724163480571</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1724163480571</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,6 +839,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Update docker-compose.yml" />
     <MESSAGE value="Product class model added for product service" />
     <MESSAGE value="Added ProductRepository class" />
@@ -394,8 +851,11 @@
     <MESSAGE value="Update ProductResponse class" />
     <MESSAGE value="Update ProductController class" />
     <MESSAGE value="Update ProductService class" />
-    <MESSAGE value="Update application.properties" />
     <MESSAGE value="Update both ProductResponse and ProductService" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update both ProductResponse and ProductService" />
+    <MESSAGE value="update .env file" />
+    <MESSAGE value="update docker-compose.yml" />
+    <MESSAGE value="Dockerfile created" />
+    <MESSAGE value="Update application.properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update application.properties" />
   </component>
 </project>
