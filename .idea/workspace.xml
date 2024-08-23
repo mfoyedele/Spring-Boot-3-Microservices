@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79da6223-a060-463f-9dff-5ee746d52854" name="Changes" comment="Update ProductServiceApplicationTests" />
+    <list default="true" id="79da6223-a060-463f-9dff-5ee746d52854" name="Changes" comment="Update pom.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +123,8 @@
       <workItem from="1724222471431" duration="952000" />
       <workItem from="1724223447357" duration="5875000" />
       <workItem from="1724321404741" duration="608000" />
-      <workItem from="1724340411022" duration="850000" />
+      <workItem from="1724340411022" duration="1329000" />
+      <workItem from="1724413828153" duration="556000" />
     </task>
     <task id="LOCAL-00001" summary="Update docker-compose.yml">
       <option name="closed" value="true" />
@@ -467,7 +470,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724341204614</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Update pom.xml">
+      <option name="closed" value="true" />
+      <created>1724341748478</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1724341748478</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,6 +514,7 @@
     <MESSAGE value="Dockerfile created" />
     <MESSAGE value="Update application.properties" />
     <MESSAGE value="Update ProductServiceApplicationTests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update ProductServiceApplicationTests" />
+    <MESSAGE value="Update pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update pom.xml" />
   </component>
 </project>

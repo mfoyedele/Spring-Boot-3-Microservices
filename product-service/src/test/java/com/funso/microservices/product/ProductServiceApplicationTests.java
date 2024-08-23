@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Import;
 import org.testcontainers.containers.MongoDBContainer;
 
 @Import(TestcontainersConfiguration.class)
-@SpringBootTest(WebEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class ProductServiceApplicationTests {
 
 	static MongoDBContainer mongoDBContainer = new MongoDBContainer("mongo:7.0.5");
