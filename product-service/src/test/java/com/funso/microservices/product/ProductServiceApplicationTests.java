@@ -30,6 +30,13 @@ class ProductServiceApplicationTests {
 
 	@Test
 	void shouldCreateProduct() {
+		String requestBody = """
+				{
+				    "name": "Iphone 15",
+				    "description": "Iphone 15 is a smartphone from Iphone",
+				    "price": 1999
+				}
+				"""
 	}
 
 }
