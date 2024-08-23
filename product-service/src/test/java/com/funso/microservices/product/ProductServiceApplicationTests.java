@@ -1,5 +1,6 @@
 package com.funso.microservices.product;
 
+import org.hamcrest.Matchers;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -36,7 +37,18 @@ class ProductServiceApplicationTests {
 				    "description": "Iphone 15 is a smartphone from Iphone",
 				    "price": 1999
 				}
-				"""
+				""";
+		RestAssured.given()
+				.contenType("application/json")
+				.body(requestBody)
+				.when()
+				.post("/api/product")
+				.then()
+				.statusCode(201)
+				.body("id", Matchers.notNullValue())
+				.body("name", Matchers.equalTo("Iphone 15"))
+				.body("description", Matchers.equalTo("Iphone 15 is a smartphone from Iphone"))
+				.body("price", Matchers.equalTo("1999"));
 	}
 
 }
