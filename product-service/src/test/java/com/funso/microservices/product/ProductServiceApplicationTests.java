@@ -1,5 +1,6 @@
 package com.funso.microservices.product;
 
+import io.restassured.RestAssured;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -21,7 +22,7 @@ class ProductServiceApplicationTests {
 
 	@BeforeEach
 	void setup() {
-		RestAssured.baseURL = "http://localhost";
+		RestAssured.baseURI = "http://localhost";
 		RestAssured.port = port;
 	}
 
@@ -39,7 +40,7 @@ class ProductServiceApplicationTests {
 				}
 				""";
 		RestAssured.given()
-				.contenType("application/json")
+				.contentType("application/json")
 				.body(requestBody)
 				.when()
 				.post("/api/product")
@@ -48,7 +49,7 @@ class ProductServiceApplicationTests {
 				.body("id", Matchers.notNullValue())
 				.body("name", Matchers.equalTo("Iphone 15"))
 				.body("description", Matchers.equalTo("Iphone 15 is a smartphone from Iphone"))
-				.body("price", Matchers.equalTo("1999"));
+				.body("price", Matchers.equalTo(1999));
 	}
 
 }
