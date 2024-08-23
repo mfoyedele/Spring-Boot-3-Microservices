@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79da6223-a060-463f-9dff-5ee746d52854" name="Changes" comment="Order Service added">
-      <change afterPath="$PROJECT_DIR$/order-service/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/docker-compose.yml" afterDir="false" />
+    <list default="true" id="79da6223-a060-463f-9dff-5ee746d52854" name="Changes" comment="Update docker-compose.yml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,15 +169,8 @@
       <workItem from="1724425422050" duration="153000" />
       <workItem from="1724425646113" duration="25000" />
       <workItem from="1724429577912" duration="265000" />
-      <workItem from="1724430155224" duration="420000" />
-    </task>
-    <task id="LOCAL-00003" summary="Update docker-compose.yml">
-      <option name="closed" value="true" />
-      <created>1723915417603</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1723915417603</updated>
+      <workItem from="1724430155224" duration="638000" />
+      <workItem from="1724430924328" duration="19000" />
     </task>
     <task id="LOCAL-00004" summary="Update docker-compose.yml">
       <option name="closed" value="true" />
@@ -564,7 +556,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724430187558</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Update docker-compose.yml">
+      <option name="closed" value="true" />
+      <created>1724430739512</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1724430739512</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +583,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update docker-compose.yml" />
     <MESSAGE value="Product class model added for product service" />
     <MESSAGE value="Added ProductRepository class" />
     <MESSAGE value="Added ProductController class" />
@@ -603,6 +602,7 @@
     <MESSAGE value="Update ProductServiceApplicationTests" />
     <MESSAGE value="Update .gitignore" />
     <MESSAGE value="Order Service added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Order Service added" />
+    <MESSAGE value="Update docker-compose.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update docker-compose.yml" />
   </component>
 </project>
